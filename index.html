@@ -333,6 +333,241 @@
       </div>
    </div>
    <!-- Dropdown Ends -->
+<!-- List Group All -->
+<!-- General List Group -->
+<div class="container mt-5 mb-5">
+  <h2>General List Group</h2>
+  <ul class="list-group">
+    <li class="list-group-item">First Line</li>
+    <li class="list-group-item">Second Line</li>
+    <li class="list-group-item active">Third Line</li>
+    <li class="list-group-item">Fourth Line</li>
+    <li class="list-group-item">Fifth Line</li>
+  </ul>
+</div>
+<!-- Numbered List Group -->
+<div class="container mt-5 mb-5">
+  <h2>Numbered List Group</h2>
+  <ul class="list-group list-group-numbered">
+    <li class="list-group-item active">First Line</li>
+    <li class="list-group-item">Second Line</li>
+    <li class="list-group-item">Third Line</li>
+    <li class="list-group-item">Fourth Line</li>
+    <li class="list-group-item">Fifth Line</li>
+  </ul>
+</div>
+<!-- Flush List Group -->
+<div class="container mt-5 mb-5">
+  <h2>Flush List Group</h2>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">First Line</li>
+    <li class="list-group-item">Second Line</li>
+    <li class="list-group-item">Third Line</li>
+    <li class="list-group-item">Fourth Line</li>
+    <li class="list-group-item active">Fifth Line</li>
+  </ul>
+</div>
+<!-- Link or Button List Group -->
+<div class="list-group container mb-5 mt-2">
+  <h2>Link List Group</h2>
+  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+    The current link item
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+  <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
+</div>
+<!-- Button List Group -->
+<div class="container mt-5 mb-5">
+  <h2>Button List Group</h2>
+  <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+      The current button
+    </button>
+    <button type="button" class="list-group-item list-group-item-action">A second button item</button>
+    <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+    <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+    <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+  </div>
+</div>
+<!-- Check Box and Radio List Group are same -->
+<div class="container mt-5 mb-5">
+  <h2>Check Box List Group</h2>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched" checked>
+      <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+      <label class="form-check-label stretched-link" for="secondCheckboxStretched">Second checkbox</label>
+    </li>
+    <li class="list-group-item">
+      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+      <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Third checkbox</label>
+    </li>
+  </ul>
+</div>
+<!-- Modal -->
+<div class="container mt-5 mb-5">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Button trigger modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-10" id="exampleModalLabel">Good Job!!</h1>
+        <button type="button" class="btn-close bg-danger rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>I can show you what you need to know...!!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Tooltips and popovers Modal -->
+<div class="container mt-5">
+  <div class="container mt-5 mb-5">
+    <!-- Button trigger modal -->
+  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    Tooltips and popovers Modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-10" id="exampleModalLabel2">Good Job!!</h1>
+          <button type="button" class="btn-close bg-warning rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2 class="fs-5">Popover in a modal</h2>
+          <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+          <hr>
+          <h2 class="fs-5">Tooltips in a modal</h2>
+          <p><a href="#" data-bs-toggle="tooltip" title="Tooltip1">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip2">that link</a> have tooltips on hover.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Modal Using The Grid -->
+<div class="container mt-5">
+  <div class="container mt-5 mb-5">
+    <!-- Button trigger modal -->
+  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+    Modal Using The Grid
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-10" id="exampleModalLabel3">Good Job!!</h1>
+          <button type="button" class="btn-close bg-warning rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 bg-info-subtle">.col-md-4</div>
+              <div class="col-md-4 ms-auto bg-warning-subtle">.col-md-4 .ms-auto</div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 ms-auto bg-danger-subtle">.col-md-3 .ms-auto</div>
+              <div class="col-md-2 ms-auto bg-info">.col-md-2 .ms-auto</div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 ms-auto bg-warning">.col-md-6 .ms-auto</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-9 bg-info-subtle">
+                Level 1: .col-sm-9
+                <div class="row">
+                  <div class="col-8 col-sm-6 bg-warning-subtle">
+                    Level 2: .col-8 .col-sm-6
+                  </div>
+                  <div class="col-4 col-sm-6 bg-info">
+                    Level 2: .col-4 .col-sm-6
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!-- Multi Modal  -->
+<div class="container mb-5">
+    <!-- Button trigger modal -->
+  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+    Button trigger Multi Modal-open First Modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Show a second modal and hide this one with the button below.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hide this modal and show the first with the button below.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Ends All Modal Project -->
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
